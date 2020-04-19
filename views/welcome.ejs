@@ -1,0 +1,621 @@
+<!DOCTYPE HTML>
+
+<html>
+
+    <head>
+        <title>HelpOut - Help The World</title>
+        <link rel="shortcut icon" href="images/icon.png" type="image/png">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,900|Roboto+Mono:300,400,500"> 
+
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/magnific-popup.css">
+    <link rel="stylesheet" href="static/css/jquery-ui.css">
+    <link rel="stylesheet" href="static/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="static/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="static/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="static/css/animate.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="css/fl-bigmug-line.css">
+  
+    <link rel="stylesheet" href="css/aos.css">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
+
+
+        <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="static/js/skel.min.js"></script>
+        <script src="static/js/skel-panels.min.js"></script>
+        <script src="static/js/init.js"></script>
+        <noscript>
+            <link rel="stylesheet" href="static/css/skel-noscript.css" />
+            <link rel="stylesheet" type="text/css"   href="static/css/style.css">
+            <link rel="stylesheet" href="static/css/style-desktop.css" />
+        </noscript>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+<script src="static/js/jquery.countup.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    </head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {box-sizing: border-box}
+    body {font-family: Verdana, sans-serif; margin:0}
+
+    /* Slideshow container */
+    .slideshow-container {
+      position: relative;
+      background: #f1f1f1f1;
+    }
+
+    /* Slides */
+    .mySlides {
+      display: none;
+      padding: 80px;
+      text-align: center;
+    }
+
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -30px;
+      padding: 16px;
+      color: #888;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      position: absolute;
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+      color: white;
+    }
+
+    /* The dot/bullet/indicator container */
+    .dot-container {
+        text-align: center;
+        padding: 20px;
+        background: #ddd;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    /* Add a background color to the active dot/circle */
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+
+    /* Add an italic font style to all quotes */
+    q {font-style: italic;}
+
+    /* Add a blue color to the author */
+    .author {color: cornflowerblue;}
+    </style>
+
+
+    <style>
+*{margin:0px; padding:0px; font-family:Helvetica, Arial, sans-serif;}
+
+/* Full-width input fields */
+.inp1 {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 26px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size:16px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #90EE90;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 26px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+    font-size:20px;
+}
+button:hover {
+    opacity: 0.8;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+.avatar {
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+}
+
+/* The Modal (background) */
+.modal {
+    display:none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 0% auto 15% auto;
+    border: 1px solid #888;
+    width: 40%; 
+    padding-bottom: 30px;
+}
+.modal-content2 {
+    background-color: #fefefe;
+    margin: 6% auto 15% auto;
+    border: 1px solid #888;
+    width: 40%; 
+    padding-bottom: 30px;
+}
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    animation: zoom 0.6s
+}
+@keyframes zoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+</style>
+
+<style>
+
+
+
+
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.inp2 {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container3 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+    <body class="homepage">
+
+        <!-- Header -->
+        <div id="header-wrapper">
+        
+            <div id="header" class="container">
+            
+                <div id="logo"><a href="index.html"><img src="logo.png" alt="logo" height="58.4" width="176"></a></div>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="/users/register" target="_blank" class="button button-alt" style=" font-family: 'Cairo'; cursor: pointer;" >إنضم إلينا</a></li>
+                        <li><a href="/users/login" target="_blank" style=" font-family: 'Cairo'; cursor: pointer;">تسجيل الدخول</a></li> 
+                        <li><a style=" font-family: 'Cairo'; cursor: pointer;" onclick="document.getElementById('modal-wrapper2').style.display='block'">إتصل بنا</a></li>
+                    </ul>               
+                </nav>
+              
+
+
+            </div><li class="myVideo" style="position:absolute; top:-30px;">
+            <video style="position:absolute;" autoplay muted loop class="myVideo">
+  <source src="images/banner1.mp4" type="video/mp4">
+</video>
+<div style="width:100%;position:relative;height:100%;min-width: 100%;min-height: 100%;background: rgba(0,0,0,0.5);"></div>
+            </li>
+            
+            <div  id="banner">
+                <div class="content">
+                    <div class="row">
+                        <section class="12u">
+                            <header>
+                            <br>
+                                <h2 style="font-size: 55px;line-height: 55px;font-family: 'Cairo', sans-serif;text-align:center;font-weight:600;">ماتخرجش من دارك إلا للضرورة</h2>
+                                <span class="byline" style="font-family: 'Cairo';">"أحنا هنا باش نعاونوا"</span>
+                            </header>
+                        
+                            <a href="#" class="button button-alt" style="font-family: 'Cairo';">تبرعات</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="#" class="button button-alt" style="font-family: 'Cairo';">أطلب متطوع</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                            <a href="https://www.covid-19.tn/" target="_blank" class="button button-alt" style="font-family: 'Cairo';">كوفيد-19</a>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        </section>
+                    </div>
+                </div>
+            </div>          
+
+        </div>
+        <!-- Header Ends Here -->
+
+        <!-- Featured Area -->
+            <div id="featured-wrapper">
+            
+                <div class="container">
+                    <div class="row double">
+                    
+                        <section class="4u">
+                           <header>
+                               <h2 style="font-family:'Cairo';">! العائلة كبيرة </h2>
+                           </header>
+                            <span class="pennant"><span class="fa fa-male"></span></span>
+                            <p style="font-size:50px ; font-weight:bold" class="num">237</p>
+                            <br>
+                            <p style="font-family:'Cairo';">! متطوع من المجتمع </p>
+                            <a href="#" class="button button-style1" style="font-family:'Cairo';">اعرف المزيد</a>
+                        </section>
+                        <section class="4u">
+                            <header>
+                                <h2 style="font-family:'Cairo';">! في كل بلاصة</h2>
+                            </header>
+                            <span class="pennant"><span class="fa fa-globe"></span></span>
+                            <p style="font-size:50px ; font-weight:bold" class="num">19</p>
+                            <br>
+                            <p style="font-family:'Cairo';">! ولاية فيها متطوع</p>
+                            <a href="#" class="button button-style1" style="font-family:'Cairo';">اعرف المزيد</a>
+                        </section>
+                        <section class="4u">
+                            <header>
+                                <h2 style="font-family:'Cairo';">! بالحق نعاونوا </h2>
+                            </header>
+                            <span class="pennant"><span class="fa fa-heart"></span></span>
+                           <p style="font-size:50px ; font-weight:bold" class="num">1387</p>
+                            <br>
+                            <p style="font-family:'Cairo';">! إعانة قدمت بنجاح</p>
+                            <a href="#" class="button button-style1" style="font-family:'Cairo';">اعرف المزيد</a>
+                        </section>
+                    
+                    </div>
+                </div>
+                
+            </div>
+
+            <script type="text/javascript">
+//$(".num").counterUp({delay:20,time:1500});
+$('.num').countUp();
+</script>
+        
+        
+        <!-- Featured Ends Here -->
+
+
+<!-- Hall Of Fame -->
+<Div class="boxed" style="background-image: radial-gradient(circle at top left, #83D983, #90EE90); height:80px">
+<br><center><font color="white" size="8px" style="font-size: 32px;line-height: 32px;font-family: 'Cairo', sans-serif;font-weight:600;">المنصة الشرفية للمتطوعين</font></center>
+</Div>
+<br>  
+<center><img src="images/trophy.png" width="110px" height="150px" ></center>
+
+<Div class="boxed" style="background-image: radial-gradient(circle at top left, #90EE90, #83D983); height:394px;">
+  <center>
+    <div><img src="images/1st.png" height="100px"></div><font size="5px" color="white" style="font-family: 'Cairo';"><b>أيمن حمايدي</b></font>
+    <div><img src="images/2nd.png" height="90px"></div><font size="5px" color="white" style="font-family: 'Cairo';"><b>أسامة حمايدي</b></font>
+    <div><img src="images/3rd.png" height="80px"></div><font size="5px" color="white" style="font-family: 'Cairo';"><b>أشرف الشابي</b></font>
+  </center>
+</div>
+
+<!-- End Hall Of Fame -->
+
+<!-- Start Of Map -->
+<div>
+  <br>
+<h2 style="font-size: 35px;line-height: 40px;font-family: 'Cairo', sans-serif;text-align:center;font-weight:600;">تذكير حول إنتشار فيروس الكورونا بتونس</h2>
+<br>
+  <center>
+<iframe width="800" height="700" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://ageos-tunisie.maps.arcgis.com/apps/Embed/index.html?webmap=8c1087c6911b4407adc5aa1202be7fa0&extent=1.8146,29.7265,18.0414,37.6493"></iframe>
+</center>
+</div>
+
+<!-- End of Map -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Page -->
+     
+       <br>
+       <br>
+        <!-- /Page -->
+
+        <!-- Footer -->
+           
+           <div class="py-5" style="background-image: radial-gradient(circle at top left, #83D983, #90EE90);">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h2 class="text-white h4 font-weihgt-normal mb-4">Subscribe To Our Newsletter :</h2>
+              </div>
+            </div>
+            <form action="" class="row">
+              <div class="col-md-9" style="padding-top:5px;">
+                <input type="text" class="form-control border-0 mb-3 mb-md-0" placeholder="Enter Your Email">
+              </div>
+              <div class="col-md-3" style="padding-top:0px">
+                <input type="submit" value="Send" class="btn btn-dark btn-block" style="height: 45px;">  
+              </div>
+            </form>
+          </div>
+        </div>
+
+ <div id="copyright" style="padding-bottom:0px">
+                <div align="center">Made With Love<font color=red> ❤</font>.</div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="modal-wrapper" class="modal">
+  
+  <form class="modal-content2 animate" action="/action_page.php">
+        
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close" title="Close PopUp">&times;</span>
+      <img src="1.png" alt="Avatar" class="avatar">
+      <h1 style="text-align:center">Enter Your Infos</h1>
+    </div>
+
+    <div class="container2">
+      <input class="inp1" style="position:relative;" type="text" placeholder="Enter Username" name="uname">
+      <input class="inp1" style="position:relative;" type="password" placeholder="Enter Password" name="psw">        
+      <button type="submit">Login</button>
+      <input type="checkbox" style="margin:26px 30px;"> Remember me      
+      <a href="#" style="text-decoration:none; float:right; margin-right:34px; margin-top:26px;">Forgot Password ?</a>
+    </div>
+    
+  </form>
+  
+</div>
+
+
+
+
+
+<div id="modal-wrapper3" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+        
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('modal-wrapper3').style.display='none'" class="close" title="Close PopUp">&times;</span>
+      <img src="1.png" alt="Avatar" class="avatar">
+      <h1 style="text-align:center">Fill In The Blanks</h1>
+    </div>
+
+    <div class="container3">
+      <input class="inp1" style="position:relative;" type="text" placeholder="Enter Your Name" name="name">
+      <input class="inp1" style="position:relative;" type="text" placeholder="Enter Your Last Name" name="lastname">
+      <input class="inp1" style="position:relative;" type="text" placeholder="Enter Username" name="uname">
+      <input class="inp1" style="position:relative;" type="text" placeholder="Enter Email" name="email">
+      <input class="inp1" style="position:relative;" type="password" placeholder="Enter Password" name="psw">        
+        
+      <button type="submit">Sign Up</button>
+    </div>
+    
+  </form>
+  
+</div>
+
+
+
+
+
+
+
+
+
+<div id="modal-wrapper2" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+        
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('modal-wrapper2').style.display='none'" class="close" title="Close PopUp">&times;</span>
+      <h1 style="text-align:center;font-weight:bold;font-size:30px">Contact</h1>
+    </div>
+
+
+
+<div class="container3" style="padding-left:60px">
+  <form action="action_page.php" >
+    <label for="fname">First Name</label><br>
+    <input class="inp2" style="width:90%" type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+    <label for="lname">Last Name</label><br>
+    <input class="inp2" style="width:90%" type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+    <label for="Email">Email</label><br>
+    <input class="inp2" style="width:90%" type="text" id="Email" name="Email" placeholder="Your Email.."><br>
+    <label for="subject">Subject</label><br>
+    <textarea class="inp2" style="width:90%;height:200px" id="subject" name="subject" placeholder="Write something.."></textarea>
+    <center><input style="padding-right:30px" type="submit" value="Submit"></center>
+  </form>
+</div>
+
+
+        <!-- BOT -->
+
+<script type="text/javascript">
+(function(t,e){var r=function(t){try{var r=e.head||e.getElementsByTagName("head")[0];a=e.createElement("script");a.setAttribute("type","text/javascript");a.setAttribute("src",t);r.appendChild(a);}catch(t){}};t.CollectId = "5c0cd655e23f73556fce6f0a";r("https://collectcdn.com/launcher.js");})(window,document);
+</script>
+        <!-- BOT -->
+
+
+
+// If user clicks anywhere outside of the modal, Modal will close
+
+var modal = document.getElementById('modal-wrapper');
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+<script>
+// If user clicks anywhere outside of the modal, Modal will close
+
+var modal = document.getElementById('modal-wrapper3');
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+<script>
+// If user clicks anywhere outside of the modal, Modal will close
+
+var modal = document.getElementById('modal-wrapper2');
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+
+<footer>
+
+
+</footer>
+
+</html>
